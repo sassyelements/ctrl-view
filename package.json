@@ -1,0 +1,28 @@
+{
+  "name": "Ctrl View",
+  "version": "1.0.0",
+  "description": "A Plugin for toggle hide and show elements",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html && cp src/js/plugins/CtrlView.js plugin/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sassyelements/ctrl-view.git"
+  },
+  "author": "https://github.com/0xkhan",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/sassyelements/ctrl-view/blob/master/LICENSE"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/sassyelements/ctrl-view/issues"
+  },
+  "homepage": "https://github.com/sassyelements/ctrl-view#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.2.1",
+    "parcel": "^2.2.1"
+  }
+}
