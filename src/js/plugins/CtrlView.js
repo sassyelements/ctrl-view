@@ -29,6 +29,11 @@ export default class CtrlView {
         const triggers = document.querySelectorAll(`[${this.triggerDataAtt}]`);
 
         if (triggers.length > 0) {
+
+            // Activate first element
+            const firstElemID = triggers[0].getAttribute(this.triggerDataAtt);
+            this.activateElem({ elemID: firstElemID });
+
             triggers.forEach((trigger) => {
                 trigger.addEventListener('click', (event) => {
                     event.preventDefault();
